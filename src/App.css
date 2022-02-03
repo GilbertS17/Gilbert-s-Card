@@ -1,0 +1,150 @@
+body {
+  background: #23252C;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+  margin: auto;
+}
+
+.head-div{
+  width: 317px;
+  height: 287px;
+  display:flex;
+  justify-content: center;
+}
+
+.my-photo {
+  width: 317px;
+  height: 317px;
+  padding:10px;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: -30px;
+}
+
+.body-div {
+width: 317px;
+height: 400px;
+background: #1A1B21;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.my-name {
+  width: 100%;
+  height: 25.81px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.my-job {
+  width: 100%;
+  height: 14.19px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+}
+
+.email-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  margin: 0px 2.5px 0 2.5px;
+}
+
+.linkedin-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 16px;
+  background: #5093E2;
+  border: 1px solid #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  margin: 0px 2.5px 0 2.5px;
+}
+
+.subtitles {
+  width: 242.71px;
+  height: 21px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+.text {
+  width: 247px;
+  height: 61px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.footer-div {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.email-img{
+  max-width: 25px;
+}
+
+.linkedin-img {
+  max-width: 30px;
+}
+
+.insta-img {
+  max-width: 40px;
+}
+
+.facebook-img {
+  max-width: 35px;
+}
